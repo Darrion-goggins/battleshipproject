@@ -1,0 +1,12 @@
+#gameboard {
+    height: 600px;
+    width: 600px;
+    background: lightblue;
+}
+.box {
+    height: calc(100%/7 - 2px);
+    width: calc(100%/7 - 2px);
+    background: lightblue;
+    float: left;
+    border: black solid 1px;
+}
